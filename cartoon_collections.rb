@@ -1,11 +1,11 @@
-dwarves = %w[
-  Doc
+dwarves = [
+  "Doc
   Dopey
   Bashful
   Grumpy
   Sneezy
   Sleepy
-  Happy
+  Happy"
 ]
 
 

@@ -36,7 +36,11 @@ def long_planeteer_calls(friends)# code an argument here
 friends.any? { |call| call.length > 4 }# Your code here
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(could_be_cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+
+  could_be_cheese.find do |maybe_cheese|
+    cheese_types.include?(maybe_cheese)
+  end
 end

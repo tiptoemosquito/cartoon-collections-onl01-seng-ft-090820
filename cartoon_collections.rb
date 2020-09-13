@@ -18,9 +18,19 @@ end
 roll_call_dwarves(dwarves)
   # code an argument here# Your code here
 
-def summon_captain_planet# code an argument here
+veggies = %w[
+earth
+wind
+fire
+water
+]
+
+def summon_captain_planet(friends)
+friends.map {|calls| call.upcase }#code an argument here
   # Your code here
 end
+
+summon_captain_planet(friends)
 
 def long_planeteer_calls# code an argument here
   # Your code here

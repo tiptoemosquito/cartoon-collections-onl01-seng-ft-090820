@@ -33,11 +33,7 @@ end
 summon_captain_planet(friends)
 
 def long_planeteer_calls(friends)# code an argument here
-  i = 0
-  while i < friends.length
-    yield(friends[i])
-    i = i + 1
-  end# Your code here
+friends.any? { |call| call.length > 4 }# Your code here
 end
 
 def find_the_cheese# code an argument here

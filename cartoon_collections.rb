@@ -18,7 +18,7 @@ end
 roll_call_dwarves(dwarves)
   # code an argument here# Your code here
 
-veggies = %w[
+friends = %w[
 earth
 wind
 fire
@@ -26,7 +26,7 @@ water
 ]
 
 def summon_captain_planet(friends)
-friends.map {|calls| call.upcase }#code an argument here
+friends.map {|calls| call.capitalize }#code an argument here
   # Your code here
 end
 

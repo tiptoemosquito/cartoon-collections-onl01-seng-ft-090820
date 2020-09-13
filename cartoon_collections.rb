@@ -26,7 +26,7 @@ water
 ]
 
 def summon_captain_planet(friends)
-friends.map {|call| call.capitalize + !}#code an argument here
+friends.map {|call| call.capitalize + '!' }#code an argument here
   # Your code here
 end
 
